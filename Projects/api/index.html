@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API Project</title>
+    <link href="apiproject.css" rel="stylesheet">
+    <script src="https://developer.edamam.com/attribution/badge.js"></script>
+    <link rel="shortcut icon" type="image/png" href="buzzfeedfav.png"/>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+    <div class="headerArea">
+
+        <a href="http://www.buzzfeed.com"> <img src="bfheader.png" alt="Buzzfeed Header"> </a>
+    
+    </div>
+    <div class = "container">
+       
+
+        <div class = "quizimageheadline">
+            <img src="bfquiz.png" width="10%" height="10%" alt="Buzzfeed Quiz">
+            <div class="headlinetext"> 
+                    
+        <h1 style="font-size:3vw;">Pick your favorite food picture and we'll tell you which Office character is your soulmate!
+            </h1></div></div>  
+<div class= "datePosted">
+        <h6>Posted on August 22, 2019, at 9:46 a.m.
+            </h6></div>
+    
+    <div class= "favefood"> 
+
+            <form>
+                    
+                      <div id="foodQuestion"><label for="search">What's your favorite food?</label><br></div>
+                      <div class ="entersearch"><input type="text" id="search" class="search" required>
+                    
+                    <button class="submit">Submit</button></div>
+                   
+            </form>
+            
+                  
+                  
+    </div>
+
+
+    
+
+ 
+
+    <div class = "food-selector">
+
+            <script type="text/javascript">
+                function randomlinks(){
+                    let myrandom=Math.round(Math.random()*3)
+                    let links=new Array()
+                    links[0]="michael.html"
+                    links[1]="jim.html"
+                    links[2]="pam.html"
+                    links[3]="dwight.html"
+                
+                   
+                 
+                    window.location=links[myrandom]
+                }
+                </script>
+            <section>
+
+                </section>
+        <div class = "food1">
+                <div class="img-hover-zoom">
+    <img id='imageOne' value="random link!" onClick="randomlinks()" style="width:100%"> </div>
+    <p id='labelOne'></p>
+        </div>    
+        <div class ="food2">
+                <div class="img-hover-zoom">
+    <img id='imageTwo' value="random link!" onClick="randomlinks()"  style="width:100%;"> </div>
+    <p id='labelTwo'></p>
+
+    
+        </div>  
+        
+    </div>
+<div class = "socialicons">
+
+    
+    <a href="https://www.facebook.com/BuzzFeed/"><img src="facebook.svg" height="5%" width="5%" alt="Facebook icon"></a>
+
+  
+    <a href="https://twitter.com/BuzzFeed"><img src="twitter.svg" height="5%" width="5%" alt="Twitter icon"></a>
+
+
+
+    <a href="https://www.instagram.com/Buzzfeed"><img src="instagram.svg" height="5%" width="5%" alt="Instagram icon"></a>
+
+
+    <div id="edamam-badge" data-color="white"></div>
+
+
+</div>
+
+  
+
+<script type="text/javascript" src="apitry2.js"></script> 
+    
+
+
+
+</div>
+</body>
+</html>

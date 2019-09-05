@@ -1,0 +1,212 @@
+html {
+
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    width: 70%;
+    margin: auto;
+   font-size: 16px;
+    
+    
+
+}
+
+
+.favefood {
+    
+    text-align: center;
+    font-size: 72px;
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight: 925;
+    position: relative;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: .6em;
+
+}
+
+
+
+
+
+.food-selector {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-evenly;   
+    text-transform: capitalize;
+    padding-top: 1.875em;
+    margin-top: 0.625em;
+
+    padding-right: 1.250em;
+
+}
+
+.search {
+
+   border-radius: 5.625em;
+   
+   height: 2.5em;
+   width: 50%;
+   padding-top: .5em;
+  
+
+
+}
+
+.submit {
+    font-size: 0.375em;
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    border-radius: 0.563em;
+    padding-bottom: .25em;
+    background-color: #f7f7f7;
+    display: inline-block;
+    width: 20%;
+    height: 1.7em;
+    font-size:2vw; 
+}
+
+.entersearch {
+
+    
+    display: flow;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.quizimageheadline{
+    display: flex;
+    flex-direction: row;
+   text-align: left;
+    
+    
+}
+
+img[src="bfheader.png"] {
+    max-width: 100%;
+   height: auto;
+   
+
+
+}
+
+img[src="bfquiz.png"] {
+
+padding-right: 1.9em;
+padding-top: .9em;
+
+
+}
+
+
+
+
+        
+
+
+.img-hover-zoom {
+    
+    overflow: hidden;
+  }
+  
+
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+
+  .theOffice {
+   
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    border: 0.313em solid black; 
+    border-radius: 0.625em;
+    padding: 0.938em;
+    background: white;
+    margin: auto;
+    width: 80%;
+    
+  }
+
+
+
+
+.socialicons{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 5em;
+    
+
+}
+
+h1 {
+
+    line-height: normal;
+}
+
+#foodQuestion {
+
+    font-size:5vw; 
+    overflow: hidden;
+    background: red;
+    border: 0.4em solid red;
+    border-radius: 0.625em;
+   height: 2.2em;
+}
+
+.datePosted {
+    margin: auto;
+    font-size:1.4vw; 
+}
+
+
+h6 {
+    margin-top: 0.313em;
+    margin-bottom: 1.250em;
+}
+
+.headerArea {
+
+  
+}
+
+.container {
+   margin-left: 3.750em;
+   margin-right: 3.750em;
+}
+
+a {
+
+    text-decoration: none;
+    
+}
+
+
+img[src="facebook.svg"] {
+
+   width: 50%;
+   height: 50%;
+    
+    
+    }
+
+    img[src="twitter.svg"] {
+
+        width: 50%;
+        height: 50%;
+         
+         
+         }
+
+         img[src="instagram.svg"] {
+
+            width: 50%;
+            height: 50%;
+             
+             
+             }

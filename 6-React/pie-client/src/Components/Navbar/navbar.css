@@ -1,0 +1,17 @@
+nav {
+
+margin: 0;
+background-color: whitesmoke;
+color: cadetblue;
+height: 10vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+
+.nav-img {
+    height: 100%
+    
+}
