@@ -19,6 +19,10 @@ app.use('/test', test);
 
 app.use('/api', user);
 
+app.use('/api/test', function(req, res){
+   res.send("This is data from the /api/test endpoint. It's from the server.");
+      });
+
 app.use(require('./middleware/validate-session'));
 app.use('/authtest', authTest);
 
@@ -26,9 +30,8 @@ app.use('/api', log);
 
 
 app.listen(3000, function(){
-    console.log('Hey man!!!')
+    console.log('Hey woman!!!')
    });
 
-app.use('/api/test', function(req, res){
-res.send("This is data from the /api/test endpoint. It's from the server.");
-   });
+
+   
