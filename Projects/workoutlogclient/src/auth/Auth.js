@@ -10,7 +10,7 @@ const Auth = (props) => {
         <Container className="auth-container">
             <Row>
                 <Col md="6">
-                    <Signup updateToken={props.updateToken}/>
+                    <Signup updateToken={props.updateToken}/> {/* Just like with our 'onChange' event handler built into the JSX, we are using an 'onSubmit' event handler in our Form bootstrap component.  The onSubmit handler will listen to and respond to a 'submit' even with our handleSubmit callback.  Notice again, that we don't use parentheses within the curly braces, because we aren't calling the callback functions ourselves--that's handled by the onSubmit handler.These props are tethered to the props parameter in the parens above. */}
                 </Col>
                 <Col md="6">
                     <Login updateToken={props.updateToken}/>
